@@ -7,7 +7,7 @@ app.get("/", function (req, res) {
 })
 
 app.get("/data", function (req, res) {
-    res.send({imie: "Konrad", nazwisko: :"Szarek", klasa: "3I1", grupa: "1"})
+    res.send({imie: "Konrad", nazwisko: "Szarek", klasa: "3I1", grupa: "1"})
 })
 
 app.listen(PORT, function () {
